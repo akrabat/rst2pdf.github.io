@@ -26,6 +26,11 @@
               <a class="tar_download_link" href="{{ site.github.tar_url }}">Download this project as a tar.gz file</a>
             </section>
           {% endif %}
+
+          <ul class="menu">
+            <li class="{% if page.url == '/' %}active{% endif %}"><a href="{{ site.base_url }}/">Home</a></li><!--
+            --><li class="{% if page.url == '/examples' %}active{% endif %}"><a href="{{ site.base_url }}/examples">Examples</a></li>
+          </ul>
         </header>
     </div>
 

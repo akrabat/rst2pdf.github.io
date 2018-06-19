@@ -13,3 +13,40 @@ h1 a, h1 a:hover {
     text-decoration: none;
     color: inherit;
 }
+
+#main_content_wrap {
+    border-top: none;
+}
+
+#header_wrap .inner {
+    padding-bottom: 0;
+}
+
+ul.menu {
+    margin: 0;
+    padding: 0;
+}
+
+ul.menu li {
+    display: inline-block;
+    background-color: #DDDDDD;
+    border: 1px solid #212121;
+    border-bottom: 1px solid #f2f2f2;
+}
+ul.menu li.active {
+    background-color: #f2f2f2;
+}
+
+ul.menu li a {
+    padding: 0 1em;
+    text-decoration: none;
+    color: inherit;
+}
+
+ul.menu li a:hover {
+    background-color: #f2f2f2;
+}
+
+ul.menu li.active a {
+    font-weight: bold
+}
