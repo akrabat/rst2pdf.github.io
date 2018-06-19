@@ -8,3 +8,8 @@ code {
     background-color: transparent;
     padding: 0;
 }
+
+h1 a, h1 a:hover {
+    text-decoration: none;
+    color: inherit;
+}
